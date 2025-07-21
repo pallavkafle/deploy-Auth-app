@@ -32,7 +32,7 @@ const navigate= useNavigate();
         }
         
         try{
-            const url = "http://localhost:8080/auth/login";
+            const url = "https://deploy-authapp.onrender.com/auth/login";
 
             const response = await fetch(url, {
                 method: "POST",
