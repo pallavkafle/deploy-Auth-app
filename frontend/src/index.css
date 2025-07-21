@@ -1,0 +1,101 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 20px;
+} 
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.Container
+  {
+  background-color:rgba(97, 148, 16, 0.568);
+  border-radius: 10px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  width: 100%;
+  max-width: 400px;
+  padding: 32px 48px;
+ }
+
+ .Container h1 {
+  margin-bottom: 20px;
+ }
+
+ .Container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Container div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;  
+}
+
+.Container input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  boarder-bottom: 1px solid rgb(0, 0, 0) ;
+  
+}
+.Container form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #9d9b9e;
+}
+
+.Container input::Placeholder {
+  font-size: 12px;
+  color: #afa8a8;
+  font-style: italic;
+}
+.Container form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1a8834;
+  color: rgb(236, 223, 223);
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.Container form button:hover {
+  background-color: #237010;
+}
+
+.Container form .error {
+  color: rgb(94, 4, 4);
+  font-size: 14px;
+}
+
+.Container form .success {
+  color: rgb(200, 219, 200);
+  font-size: 14px;
+}
+
+.Container form .link {
+  color: #9bbae0;
+  text-decoration: none;
+}
+
+.Container form .link:hover {
+  text-decoration: underline;}
+
+  
